@@ -1,0 +1,19 @@
+<section class="widget widget-manager">
+  <header class="widget-head">
+    <h2 class="widget-title">{{title}}</h2>
+    <span class="widget-status">{{status}}</span>
+  </header>
+  <div class="manager-actions">
+    <label for="manager-github">GitHub or ZIP URL</label>
+    <input id="manager-github" type="url" data-field="github" placeholder="https://github.com/owner/repo" />
+    <button type="button" data-action="install-github">Install from GitHub &rarr;</button>
+    <label for="manager-zip">ZIP file</label>
+    <input id="manager-zip" type="file" data-field="zip" accept=".zip,application/zip" />
+    <button type="button" data-action="install-zip">Install from ZIP &rarr;</button>
+    <label for="manager-bundle">Plugin bundle</label>
+    <input id="manager-bundle" type="file" data-field="bundle" accept=".json,application/json" />
+    <button type="button" data-action="import">Import &rarr;</button>
+    <button type="button" data-action="export">Export all &rarr;</button>
+  </div>
+  <p class="manager-message" data-slot="message">{{message}}</p>
+</section>

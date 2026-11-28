@@ -1,0 +1,10 @@
+{
+  "widgets": {
+    "widget": "default",
+    "feed": "default",
+    "settings": "default",
+    "plugin-manager": "default",
+    "plugin-settings": "default"
+  },
+  "services": {}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "default-louncher",
+  "version": "1.0.0",
+  "description": "Feed and settings screens for Desmond.",
+  "subscriptions": {
+    "roles": ["launcher"]
+  },
+  "settings": true,
+  "entry": {
+    "launcher": { "kind": "file", "path": "services/main.js" }
+  }
+}

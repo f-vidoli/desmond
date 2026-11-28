@@ -1,0 +1,12 @@
+{
+  "name": "default-pm",
+  "version": "1.0.0",
+  "description": "Installs and exports plugins from the settings screen.",
+  "subscriptions": {
+    "roles": ["plugin-manager"]
+  },
+  "settings": true,
+  "entry": {
+    "manager": { "kind": "file", "path": "services/main.js" }
+  }
+}

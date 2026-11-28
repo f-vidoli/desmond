@@ -1,0 +1,52 @@
+{
+  "version": 11,
+  "overwrite": [
+    "shared_memory.json",
+    "plugin_pointer.json",
+    "settings.json",
+    "plugins/default-widgets/manifest.json",
+    "plugins/default-widgets/services/main.js",
+    "plugins/default-widgets/widgets/widget.html",
+    "plugins/default-widgets/widgets/feed.html",
+    "plugins/default-widgets/widgets/settings.html",
+    "plugins/default-widgets/widgets/plugin-settings.html",
+    "plugins/default-widgets/widgets/plugin-manager.html",
+    "plugins/default-widgets/settings/settings-widget.json",
+    "plugins/default-louncher/manifest.json",
+    "plugins/default-louncher/services/main.js",
+    "plugins/default-louncher/services/theme.css",
+    "plugins/default-louncher/settings/settings-widget.json",
+    "plugins/default-pm/manifest.json",
+    "plugins/default-pm/services/main.js",
+    "plugins/default-pm/settings/settings-widget.json"
+  ],
+  "remove": [
+    "plugins/example-plugin",
+    "plugins/test-plugin",
+    "plugins/default-louncher/widgets/launcher.html",
+    "plugins/default-pm/widgets/manager.html"
+  ],
+  "files": [
+    "shared_memory.json",
+    "plugin_pointer.json",
+    "settings.json",
+    "plugins/default-widgets/manifest.json",
+    "plugins/default-widgets/services/main.js",
+    "plugins/default-widgets/widgets/widget.html",
+    "plugins/default-widgets/widgets/feed.html",
+    "plugins/default-widgets/widgets/settings.html",
+    "plugins/default-widgets/widgets/plugin-settings.html",
+    "plugins/default-widgets/widgets/plugin-manager.html",
+    "plugins/default-widgets/settings/settings-widget.json",
+    "plugins/default-widgets/settings/settings.json",
+    "plugins/default-louncher/manifest.json",
+    "plugins/default-louncher/services/main.js",
+    "plugins/default-louncher/services/theme.css",
+    "plugins/default-louncher/settings/settings-widget.json",
+    "plugins/default-louncher/settings/settings.json",
+    "plugins/default-pm/manifest.json",
+    "plugins/default-pm/services/main.js",
+    "plugins/default-pm/settings/settings-widget.json",
+    "plugins/default-pm/settings/settings.json"
+  ]
+}

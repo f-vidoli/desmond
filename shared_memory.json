@@ -1,0 +1,7 @@
+{
+  "louncher": "default-louncher",
+  "package-manager": "default-pm",
+  "start-subscription-list": [],
+  "feed-subscription-list": [],
+  "watchdogs": {}
+}

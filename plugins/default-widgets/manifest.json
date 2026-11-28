@@ -1,0 +1,9 @@
+{
+  "name": "default-widgets",
+  "version": "1.0.0",
+  "description": "HTML templates for core feed, settings and manager widgets.",
+  "subscriptions": {
+    "roles": ["widget"]
+  },
+  "widgets": ["widget", "feed", "settings", "plugin-settings", "plugin-manager"]
+}

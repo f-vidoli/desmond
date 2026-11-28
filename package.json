@@ -1,0 +1,19 @@
+{
+  "name": "desmond",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Microkernel plugin desktop app with a platform-agnostic web core",
+  "license": "MIT",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "build:web": "node scripts/build-web.js",
+    "test": "node --test tests/*.test.js",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "electron": "^45.5.0"
+  }
+}

@@ -1,0 +1,16 @@
+<section class="plugin-settings" data-plugin="{{plugin}}">
+  <header class="plugin-settings-head">
+    <h3>{{title}}</h3>
+    <span class="plugin-id">{{plugin}}</span>
+    <label class="switch">
+      <input type="checkbox" data-role="enabled" />
+      <span>On</span>
+    </label>
+  </header>
+  <p class="plugin-settings-desc">{{description}}</p>
+  <div class="settings-fields" data-slot="fields"></div>
+  <footer class="plugin-settings-actions">
+    <button type="button" data-action="save-plugin-settings">Save</button>
+    <button type="button" class="danger" data-action="delete-plugin">Delete</button>
+  </footer>
+</section>
